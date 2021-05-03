@@ -1,16 +1,15 @@
 #include <iostream>
-#include <string>
 using namespace std;
 
 class Placa
 {
+public:
+    void SetCor(string cor);
+    void SetId(string id);
+    void SetModelo(char modelo);
 
 private:
-  string cor;
-  string id;
-  char modelo;// A antigo n brasil
-public:
-void setCor(string cor);
-void setId(string id);
-void setModelo(char modelo);
+    string cor;
+    string id;
+    char modelo; //'A'-antigo / 'N'-Brasil
 };
